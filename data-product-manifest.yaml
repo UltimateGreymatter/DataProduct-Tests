@@ -1,0 +1,49 @@
+jobId: "1136"
+jobName: Aakash Test 8 Nov
+jobType: DataSets
+developerId: fb302eb3-31f0-4180-8dcd-ff6b2305ad54
+domain: finance
+alias: ""
+discoveryPort:
+  name: Aakash Test 8 Nov
+inputPorts:
+  - alias: Parquet_1
+    isDynamic: true
+    path: ""
+    optional:
+      persistDataFrame: false
+      advanceOptions:
+        mergeSchema: true
+      enableDataReconciliation: false
+      enforceSchema: false
+      dataSetUrn: ""
+    type: inputParquet
+    dataProductUrn: ""
+productState:
+  isDynamic: true
+  alias: ""
+  retentionVersions: ""
+  logicalSchema: ""
+  stateStoreType: writeDataFrameToParquet
+  isProfilingEnabled: false
+  path: ""
+  optional:
+    persistDataFrame: false
+    addRunIdColumn: false
+    enableDataReconciliation: false
+    enforceSchema: false
+  refreshInterval: 0 0 * 5 *
+transformation:
+  - isDynamic: true
+    alias: Filter_1
+    description: ""
+    sequence: 2
+    inputDataFrame: Parquet_1
+    filterCondition: ""
+    isConditionAsJsonString: false
+    optional:
+      persistDataFrame: false
+    type: filterTransform
+controlPort:
+  dataQualityRules: {}
+timeout: 5

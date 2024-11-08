@@ -1,11 +1,11 @@
-jobId: "1136"
-jobName: Aakash Test 8 Nov
+jobId: "1139"
+jobName: Aakash That DW task test 3
 jobType: DataSets
 developerId: fb302eb3-31f0-4180-8dcd-ff6b2305ad54
 domain: finance
 alias: ""
 discoveryPort:
-  name: Aakash Test 8 Nov
+  name: Aakash That DW task test 3
 inputPorts:
   - alias: Parquet_1
     isDynamic: true
@@ -32,7 +32,7 @@ productState:
     addRunIdColumn: false
     enableDataReconciliation: false
     enforceSchema: false
-  refreshInterval: 0 0 * 5 *
+  refreshInterval: 0 0 * 5 0
 transformation:
   - isDynamic: true
     alias: Filter_1

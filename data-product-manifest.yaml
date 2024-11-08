@@ -1,49 +1,19 @@
-jobId: "1139"
-jobName: Aakash That DW task test 3
+jobId: "1140"
+jobName: Aakash That DW task test 4
 jobType: DataSets
 developerId: fb302eb3-31f0-4180-8dcd-ff6b2305ad54
 domain: finance
 alias: ""
 discoveryPort:
-  name: Aakash That DW task test 3
-inputPorts:
-  - alias: Parquet_1
-    isDynamic: true
-    path: ""
-    optional:
-      persistDataFrame: false
-      advanceOptions:
-        mergeSchema: true
-      enableDataReconciliation: false
-      enforceSchema: false
-      dataSetUrn: ""
-    type: inputParquet
-    dataProductUrn: ""
+  name: Aakash That DW task test 4
+inputPorts: []
 productState:
   isDynamic: true
   alias: ""
   retentionVersions: ""
   logicalSchema: ""
-  stateStoreType: writeDataFrameToParquet
   isProfilingEnabled: false
-  path: ""
-  optional:
-    persistDataFrame: false
-    addRunIdColumn: false
-    enableDataReconciliation: false
-    enforceSchema: false
   refreshInterval: 0 0 * 5 0
-transformation:
-  - isDynamic: true
-    alias: Filter_1
-    description: ""
-    sequence: 2
-    inputDataFrame: Parquet_1
-    filterCondition: ""
-    isConditionAsJsonString: false
-    optional:
-      persistDataFrame: false
-    type: filterTransform
+transformation: []
 controlPort:
   dataQualityRules: {}
-timeout: 5

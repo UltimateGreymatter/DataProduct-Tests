@@ -7,6 +7,7 @@ domain: finance
 alias: loadicebergfiltercopy
 discoveryPort:
   name: Precinct Sales - Aakash
+  description: Precinct Sales - Aakash
 inputPorts:
   - alias: S3_Dataset_Sales_1
     isDynamic: true

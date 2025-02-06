@@ -59,6 +59,46 @@ productState:
         description: asmname
         sourceColumn: asmname
         sourceTable: "secondarysales"
+  ProductState:
+  isDynamic: true
+  alias: Load_all_data_for_sale_test2
+  retentionVersions: ""
+  logicalSchema:
+    properties:
+      region:
+        type: STRING
+        description: Unique identifier for each region.
+        sourceColumn: region
+        sourceTable: "secondarysales"
+      zsmcode:
+        type: STRING
+        description: zsmcode
+        sourceColumn: zsmcode
+        sourceTable: "secondarysales"
+        isPII: true
+      zsmname:
+        type: STRING
+        description: zsmname
+        sourceColumn: zsmname
+        sourceTable: "secondarysales"
+        isPII: true
+      ahcode:
+        type: STRING
+        description: ahcode.
+        sourceColumn: ahcode
+        sourceTable: "secondarysales"
+        isPII: true
+      ahname:
+        type: STRING
+        description: ahname.
+        sourceColumn: ahname
+        sourceTable: "secondarysales"
+        isPII: true
+      asmname:
+        type: STRING
+        description: asmname
+        sourceColumn: asmname
+        sourceTable: "secondarysales"
   stateStoreType: loadDataIceberg
   isProfilingEnabled: false
   updateStrategy: Overwrite

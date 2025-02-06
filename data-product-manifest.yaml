@@ -3,9 +3,9 @@ jobName: Secondary Sales Cost Testing
 jobType: Source Aligned Data Product
 developerId: a7213db3-af1d-4810-ac21-e49160b82291
 domain: sale
-alias: Load_all_data_for_sale_test2_2
+alias: Load_all_data_for_sale_test2_Persistant_2
 discoveryPort:
-  name: Secondary Sales Cost Testing - 2
+  name: Secondary Sales Cost Testing Persistant - 2
 inputPorts:
   - alias: Secondary_Sales_1
     isDynamic: true
